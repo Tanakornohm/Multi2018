@@ -749,11 +749,13 @@
 	}
 
 	.gallery {
-		padding: 3.5em;
+		padding: 2.25em;
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
+		background: white;
 	}
+
 
 		@media screen and (max-width: 980px) {
 
@@ -1468,7 +1470,7 @@
 		-ms-justify-content: center;
 		justify-content: center;
 		min-height: 75vh;
-		height: 75vh;
+		height: 100vh;
 		position: relative;
 		background: #000;
 		background-image: url(../../images/banner.jpg);
@@ -1558,6 +1560,7 @@
 
 		}
 
+
 /* Main */
 
 	#main {
@@ -1566,14 +1569,17 @@
 	}
 
 		#main #header {
-			background: #e6e6e6;
-			padding: 1.15em 3.5em;
+			background: #0d121712;
+			margin: 5px;
+			padding-right: 1.5em;
 			text-align: right;
+			font-size: 2em;
 		}
 
 			#main #header h1 {
 				margin: 0;
 				font-size: 1em;
+
 			}
 
 			@media screen and (max-width: 980px) {
@@ -1623,4 +1629,52 @@
 
 	.thisIsMakeThisToCenter {
 		padding: 20px;
+	}
+
+	#thisMakeButtonToCenter {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.thisIsForMakingBorder{
+		border: 2.5px solid black;
+    	width: 75%;
+    	padding-top: 13px;
+    	padding-left: 20px;
+    	margin: auto;
+	}
+
+.ngao {
+	text-shadow: 20px 20px 20px;
+}
+
+	.col-sm img{
+		width: 50%;
+	}
+
+	#thisMakePicEqual img{
+
+
+	height: auto;
+	max-width: 500px;
+	padding-top: 20px;
+
+	}
+
+	.col img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.col img:hover{
+		filter: grayscale(79%);
+	}
+
+	.col{
+		padding-bottom: 20px;
+	}
+
+	.special h2{
+		padding-bottom: 20px;
+		font-size: 3.0136em;
 	}

@@ -1594,11 +1594,151 @@
 			
 		}
 
+				#main #header3 {
+
+			background-image: url(i/05.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header4 {
+
+			background-image: url(b/08.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header5 {
+
+			background-image: url(f/06.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header6 {
+
+			background-image: url(j/07.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header7 {
+
+			background-image: url(c/05.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header8 {
+
+			background-image: url(g/06.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header9 {
+
+			background-image: url(k/03.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header10 {
+
+			background-image: url(d/03.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header11 {
+
+			background-image: url(h/06.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header12 {
+
+			background-image: url(l/01.jpg);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
 		#ohm {
 
 			margin: 40px;
 			width: 100%;
-			letter-spacing: 3px;
+			letter-spacing: 2px;
 		}
 
 			#main #header h1 {

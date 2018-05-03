@@ -1208,9 +1208,6 @@
 	}
 
 	section .inner, article .inner {
-		padding: 3.5em 0 1.5em 0;
-		padding-left: 3.5em;
-		padding-right: 3.5em;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -1401,7 +1398,7 @@
 		background: #0d1217;
 		z-index: 10002;
 		position: relative;
-		width: 4em;
+		width: 15em;
 	}
 
 		#nav ul {
@@ -1560,20 +1557,48 @@
 
 		}
 
+}
 
 /* Main */
 
 	#main {
-		background: #f1f1f1;
+		background: white;
 		width: 100%;
 	}
-
 		#main #header {
-			background: #0d121712;
-			margin: 5px;
-			padding-right: 1.5em;
-			text-align: right;
-			font-size: 2em;
+
+			background-image: url(01.jpg);
+
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#main #header2 {
+
+			background-image: url(e/01.webp);
+    		text-align: center;
+    		font-size: 5em;
+    		width: 100%;
+    		height: auto;
+    		padding: 3em;
+    		text-shadow: 5px 5px black;
+    		color: white;
+
+			
+		}
+
+		#ohm {
+
+			margin: 40px;
+			width: 100%;
+			letter-spacing: 3px;
 		}
 
 			#main #header h1 {
@@ -1581,6 +1606,7 @@
 				font-size: 1em;
 
 			}
+
 
 			@media screen and (max-width: 980px) {
 
@@ -1664,8 +1690,9 @@
 	}
 
 	.col img {
-		max-width: 100%;
+		max-width: 60%;
 		height: auto;
+		margin-: 75px;
 	}
 
 	.col img:hover{
@@ -1674,6 +1701,19 @@
 
 	.col{
 		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	#pic img{
+		max-width: 500px;
+		height: auto;
+		padding: 3em;
+	}
+
+	#pic2 img{
+		max-width: 500px;
+		height: auto;
+		padding: 3em;
 	}
 
 	.special h2{
@@ -1685,6 +1725,46 @@
 	.makeGray{
 		width: 100%;
 		height: auto;
-		background-image: url();
+		background: #8080802b;
 		padding: 50px;
+		font-size: 1em;
+	}
+
+	.makeGray2{
+		width: 100%;
+		height: auto;
+		background: #0d121712;
+		padding: 50px;
+	}
+
+	.helpMe{
+		padding: 50px;
+		background-image: url(07.png);
+		letter-spacing: 3px;
+	}
+
+	.helpMe2{
+		padding: 50px;
+		background-image: url(06.png);
+		letter-spacing: 3px;
+	}
+
+	#thisMakeWordBetter{
+		margin-left: 100px;
+		font-size: 1em;
+		margin-top: 20px;
+	}
+
+	#makeHeader{
+		font-size: 2em;
+		margin-left: 50px;
+	}
+
+	.makeWordBigger{
+		font-size: 2em;
+	}
+
+	#makePicture img{
+		margin-left: 20px;
+		box-shadow: 2.5px 2.5px 50px;
 	}
